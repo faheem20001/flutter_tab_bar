@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
               Tab(
                 icon: Icon(
                   Icons.list_alt_outlined,
-                  color: Colors.green,
+                  color: Colors.greenAccent,
                 ),
               ),
             ]),
@@ -45,7 +45,7 @@ class Home extends StatelessWidget {
             )
           ],
         ),
-        appBar: AppBar(title: Center(child: Text('A P P B A R'))),
+        appBar: AppBar(title: Center(child: Text('T A B B A R'))),
       ),
     );
   }
